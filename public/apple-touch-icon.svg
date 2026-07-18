@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Black rounded square background -->
+  <rect width="180" height="180" rx="32" fill="#000" />
+  <!-- Bone icon - IDENTICAL to header.tsx, scaled ~5.5x -->
+  <g transform="translate(24,24) scale(5.5)">
+    <!-- Left knob -->
+    <circle cx="7" cy="12" r="4.5" fill="#e3ff40" stroke="#000" stroke-width="2.5" />
+    <!-- Right knob -->
+    <circle cx="17" cy="12" r="4.5" fill="#e3ff40" stroke="#000" stroke-width="2.5" />
+    <!-- Shaft fill -->
+    <rect x="6" y="9" width="12" height="6" fill="#e3ff40" />
+    <!-- Shaft strokes -->
+    <path d="M 6 9 L 18 9" stroke="#000" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 6 15 L 18 15" stroke="#000" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Indentation dips -->
+    <rect x="5.5" y="7" width="3" height="2.5" rx="0.8" fill="#000" />
+    <rect x="5.5" y="14.5" width="3" height="2.5" rx="0.8" fill="#000" />
+    <rect x="15.5" y="7" width="3" height="2.5" rx="0.8" fill="#000" />
+    <rect x="15.5" y="14.5" width="3" height="2.5" rx="0.8" fill="#000" />
+    <!-- Marrow lines -->
+    <path d="M 9.5 10 L 9.5 14" stroke="#000" stroke-width="1" opacity="0.2" stroke-linecap="round" />
+    <path d="M 14.5 10 L 14.5 14" stroke="#000" stroke-width="1" opacity="0.2" stroke-linecap="round" />
+    <path d="M 12 10.5 L 12 13.5" stroke="#000" stroke-width="1" opacity="0.15" stroke-linecap="round" />
+  </g>
+  <!-- Subtle inner border -->
+  <rect x="3" y="3" width="174" height="174" rx="30" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" />
+</svg>
